@@ -1,0 +1,1 @@
+SELECT title FROM (SELECT title, movies.id as help1 FROM movies JOIN stars on movies.id = stars.movie_id JOIN people ON people.id = stars.person_id WHERE people.name = "Johnny Depp") JOIN (SELECT movies.id as help2 FROM movies JOIN stars on movies.id = stars.movie_id JOIN people ON people.id = stars.person_id WHERE people.name = "Helena Bonham Carter") ON help1 = help2;

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Responsive design base example</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/mobile.css" />
+  		<link rel="stylesheet" type="text/css" href="css/wide.css" media="only screen and (min-width: 480px)"/>
+        <link rel="stylesheet" type="text/css" href="css/xwide.css" media="only screen and (min-width: 900px)"/>
+        <script>
+            function response(){
+                alert("Hello, Response Test was positive!");
+            }
+        </script>
+	</head>
+	<body>
+        <header>
+			<h1>BestSuper</h1>
+			<p>Prepare your future - NOW!</p>
+			<a href="#contact" id="header-button">Contact Us</a>
+            <button onclick="response(); return false;" id="header-button2">Response Testing</button>
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="magazin.html">Magazine</a>
+                        <ul class="submenu">
+                            <li>
+                                <a href="magazin.html">Overview</a>
+                            </li>
+                            <li>
+                                <a href="articleone.html">Articles</a>
+                            </li>
+                            <li>
+                                <a href="articleone.html#comments">Comments</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="story.html">Story</a>
+                    </li>
+                    <li>
+                        <a href="#bottom">About</a>
+                    </li>
+                </ul>
+		    </nav>
+        </header>
+
+
+		<section id="main-content">
+            <section class="flexbox">
+                <h2>NEW!! - Our online magazin</h2>
+
+                <p>Don't waste paper, read online instead. Always up to date and moreover, read all magazins of the last 12 months! Just one click away! Add your comments, read opinions of other members and feel free to share on your social media. Think about your future? We offer you articles of different target groups as well, so that you are perfectly prepared.</p>
+
+                <div>
+                    <a href="magazin.html"><img src="images/pexels-photo-296282.jpeg" class="fullimg"></a>
+                    <p id="magazineheader">Magazin Section</p>
+                    <p id="magazinep"> - Check out here! - </p>
+                </div>
+            </section>
+            <section class="flexbox">
+                <h2>Everyone has its own story</h2>
+
+			     <p>Everybody is unique with its own story of life. That's why we focuse on our individual members. We always try our very best to optimize our products on everyone individually, so that you can life your own story. <a href="story.html">Check out here</a> some of our member's stories!</p>
+
+                <div>
+                    <a href="story.html"><img src="images/pexels-photo-305268.jpeg" class="fullimg"></a>
+                    <p id="storieheader">Member's Stories</p>
+                    <p id="storiep"> - Check out here! - </p>
+                </div>
+            </section>
+            <section class="flexbox" id="lastflexbox">
+                <h2>Safe our planet</h2>
+
+                <img src="images/pexels-photo-572938111.jpg" id="lastimghome" class="fullimg">
+
+                <p>We still deliver our magazins as print versions, but we apologize to go on with the future. Isn't it even easier for you to get our magazins online? Just one click away? Printing magazins cost so much for our environment, deforestation and a high water usage during the paper creation process. Due to our company target to build a better future for YOU, we line up with the international guidelines to safe our environment, so that you can have a good life in a still existing world when you retire. Superannoation is the one thing, living environment the other one.</p>
+            </section>
+        </section>
+
+        <section id="bottomhelp">
+            <section id="bottom">
+                <article>
+                    <h2>About Us</h2>
+                    <p>We - BestSuper - are an superannoation provider located in Brisbane, Australia. Our target is to become the best superannoation provider in whole Australia. Therefore we really appreciate to recieve your feedback, either per mail at <a href="mailto:contact@bestsuper.com.au">contact@bestsuper.com.au</a> or per using the contact formula at the bottom. Our main purpose is to help young people preparing for their future. Probably there won't be any government securities for retired people in 50 years, so that's why we support especially young people, so that they have a nice evening of their life!</p>
+                </article>
+                <section id="contact">
+                    <h2>Contact Us</h2>
+                    <form action="#">
+                        <input type="text" id="name" name="name" placeholder="Your name..">
+                        <input type="text" id="email" name="email" placeholder="Your E-mail..">
+                        <input type="text" id="message" name="message" placeholder="Your message..">
+                        <input type="submit" value="Submit">
+                    </form>
+                </section>
+            </section>
+        </section>
+
+		<footer>
+			&copy; DXB203 - QUT. Assignment2 by Tobias Baldauf
+		</footer>
+
+	</body>
+</html>

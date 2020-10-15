@@ -1,0 +1,166 @@
+/* wide.css - styles are only applied when browser window is larger than 480px */
+
+body {
+    max-width: 70%;
+    min-width: 900px;
+}
+
+header h1 {
+	font-size: 6vw;
+}
+
+header p {
+	font-size: 3vw;
+}
+
+/* Main content */
+
+.full-img, .fullimg {
+    width: 50%;
+}
+
+#main-content {
+    overflow: hidden;
+}
+
+.persona .full-img {
+    padding-bottom: 1em;
+    padding-right: 1em;
+    width: 50%;
+    float: left;
+}
+
+.persona {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 1em 0;
+}
+
+.persona p {
+    padding: 1em;
+    text-align: justify;
+    
+}
+
+#lastflexbox {
+    float: left;
+    position: relative;
+    top: 0;
+    clear: both;
+}
+
+#lastflexbox p {
+    top: 0;
+}
+
+#lastflexbox .fullimg {
+    bottom: -1em;
+}
+
+.flexbox {
+    padding: 2em;
+}
+
+.flexbox h2 {
+    float: left;
+    padding-bottom: 0.5em;
+}
+
+.flexbox p {
+    float: right;
+    width: 40%;
+    text-align: justify;
+    position: relative;
+    top: 2em;
+}
+
+#magazineheader {
+    position: relative;
+    top: -8.4em;
+    left: 2.5em;
+    float: none;
+}
+
+#magazinep {
+    position: relative;
+    top: -13.4em;
+    left: 5em;
+    float: none;
+}
+
+#storieheader {
+    position: relative;
+    top: -8em;
+    left: 1.5em;
+    float: none;
+}
+
+#storiep {
+    position: relative;
+    top: -12.7em;
+    left: 3.5em;
+    float: none;
+}
+
+.fullimg {
+    clear: left;
+    float: left;
+    position: relative;
+    bottom: 1em;
+}
+
+#magazinheader {
+    float: left;
+    position: relative;
+    left: 3.5em;
+    top: -9em;
+}
+
+#magazinp {
+    float: left;
+    position: relative;
+    left: -11.5em;
+    top: -11em;
+}
+
+#storyheader {
+    float: left;
+    position: relative;
+    left: 1em;
+    top: -6.1em;
+}
+
+.onemagazin {
+    float: left;
+    margin: 0 1em 2em;
+}
+
+#zwei {
+    float: right;
+}
+
+#storyp {
+    float: left;
+    position: relative;
+    left: -15em;
+    top: -7em;
+}
+
+article .title {
+    font-size: 4vw;
+}
+
+#bottomhelp {
+    clear: both;
+    margin: auto;
+}
+
+#contact {
+    position: relative;
+    left: 2rem;
+    border: 0;
+}
+
+#bottom article {
+	float: left;
+	width: 40%;
+}

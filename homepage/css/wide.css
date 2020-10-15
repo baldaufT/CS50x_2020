@@ -1,0 +1,61 @@
+/* wide.css - styles are only applied when browser window is larger than 480px */
+
+body {
+	width: 100%;
+}
+
+/* Navigation */
+
+nav {
+	text-align: center;
+}
+
+/* -- Top level */
+
+nav > ul > li {
+	position: relative;
+}
+
+p {
+    text-align: justify;
+}
+
+
+/* Main content */
+
+
+#main-content {
+	padding: 5% 10%;
+    margin-top: 0;
+}
+
+#main-content h2, h3 {
+    text-align: left;
+}
+
+#magazinheader, #storyheader, #magazineheader, #storieheader {
+    left: 23vw;
+    top: -40vw;
+}
+
+#magazinp, #storyp, #magazinep, #storiep {
+    left: 25vw;
+    top: -40vw;
+}
+
+#storyhome img{
+    width: 85%;
+    margin: auto;
+}
+
+article .title {
+    font-size: 6vw;
+}
+
+header h1 {
+	font-size: 9vw;
+}
+
+header p {
+	font-size: 4.5vw;
+}
